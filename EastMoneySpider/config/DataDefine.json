@@ -1,0 +1,40 @@
+{
+  "code":{
+      "Define":"证券代码",
+      "DbName":"证券代码",
+      "DbType":"varchar(20)"
+  },
+  "f2":{
+      "Define":"最新价",
+      "DbName":"最新价",
+      "DbType":"float"
+  },
+  "f3":{
+      "Define":"最新价",
+      "DbName":"最新价",
+      "DbType":"float"
+  }
+}
+
+
+
+
+f12 = scrapy.Field() #转债代码
+    f14 = scrapy.Field() #转债名称
+    f2 = scrapy.Field() #转债最新价
+    f3 = scrapy.Field() #转债涨跌幅
+    f232 = scrapy.Field() #正股代码
+    f234 = scrapy.Field() #正股名称
+    f229 = scrapy.Field() #最新价
+    f230 = scrapy.Field() #涨跌幅
+    f235 = scrapy.Field() #转股价
+    f236 = scrapy.Field() #转股价值
+    f237 = scrapy.Field() #转股溢价率
+    f238 = scrapy.Field() #纯债溢价率
+    f239 = scrapy.Field() #回售触发价
+    f240 = scrapy.Field() #强赎触发价
+    f241 = scrapy.Field() #到期赎回价
+    f227 = scrapy.Field() #纯债价值
+    f242 = scrapy.Field() #开始转股日
+    f26= scrapy.Field() #上市日期
+    f243 = scrapy.Field() #申购日期
